@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket. It will cover the creation of several sample roles, departments, teams, workers, end users, SLA and Help topics to familiarize yourself with the ticketing system environment. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -29,25 +29,45 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  
+Configure [Roles](https://docs.osticket.com/en/latest/Admin/Agents/Roles.html)
+> - Admin Panel -> Agents -> Roles
+> - Supreme Admin
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Configure [Departments](https://docs.osticket.com/en/latest/Admin/Agents/Departments.html)
+> - Admin Panel -> Agents -> Departments
+> - System Administrators
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure [Teams](https://docs.osticket.com/en/latest/Admin/Agents/Teams.html)
+> - Admin Panel -> Agents -> Teams
+>> - Level I Support
+>> - Level II Support
+
+Allow anyone to create tickets
+> - Admin Panel -> Settings -> User Settings
+> - Registration Required: Require registration and login to create tickets
+
+Configure [Agents (Workers)](https://docs.osticket.com/en/latest/Admin/Agents/Agents.html)
+> - Admin Panel -> Agents -> Add New
+> - Create sample workers e.g. Jane, John, etc
+
+Configure [Users (Customers)](https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html)
+> - Agent Panel -> Users -> Add New
+> - Create sample end users who might create tickets e.g. Ken, Karen, etc
+
+Configure [SLA (Service Level Agreement)](https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html)
+> - Admin Panel -> Manage -> SLA
+> - Create sample agreements such as:
+>> - Sev-A (1 hour, 24/7)
+>> - Sev-B (4 hours, 24/7)
+>> - Sev-C (8 hours, business hours)
+
+Configure Help Topics
+> - Admin Panel -> Manage -> Help Topics
+> - Create sample topics for end users to choose when creating tickets, such as:
+>> - Business Critical Outage
+>> - Personal Computer Issues
+>> - Equipment Request
+>> - Password Reset
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
