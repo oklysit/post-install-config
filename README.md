@@ -32,14 +32,15 @@ This tutorial outlines the post-install configuration of the open-source help de
   
 Configure [Roles](https://docs.osticket.com/en/latest/Admin/Agents/Roles.html)
 > - Admin Panel -> Agents -> Roles
-> - Supreme Admin
+> - Create a Supreme Admin with all permissions
 
 Configure [Departments](https://docs.osticket.com/en/latest/Admin/Agents/Departments.html)
 > - Admin Panel -> Agents -> Departments
-> - System Administrators
+> - Create a sample System Administrators Department
 
 Configure [Teams](https://docs.osticket.com/en/latest/Admin/Agents/Teams.html)
 > - Admin Panel -> Agents -> Teams
+> - Create sample Teams, eg:
 >> - Level I Support
 >> - Level II Support
 
